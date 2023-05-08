@@ -2,6 +2,7 @@ import './App.css';
 import HellowWorld from './components/HellowWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         idade= "31 anos"
         profissao= "Desenvolvedor Front-end"
       />
+      <List/>
     </div>
   );
 }
