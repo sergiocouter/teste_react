@@ -7,11 +7,14 @@ import Eventos from './components/Eventos';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
 import NovaLista from './components/NovaLista';
+import { useState } from 'react';
+import SeuNome from './components/SeuNome';
 
 function App() {
   
   const nome = "Maria"
   const meuItens =['Sérgio', 'Priscila', 'Arthur']
+  const [nomes, setNomes] = useState()
 
   return (
     <div className="App">
@@ -33,6 +36,9 @@ function App() {
       <Condicional />
       <h1>Renderização de Listas</h1>
       <NovaLista itens={meuItens}/>
+      <h1>State Lift</h1>
+      <SeuNome  setNomes={setNomes}/>
+      {nomes}
     </div>
   );
 }
