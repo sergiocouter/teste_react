@@ -2,3 +2,6 @@
 
 ## Objetivo
 > Testar alguma ideia antes de implementar
+
+## Aprendizado
+> Aprendendo sobre Hooks 
