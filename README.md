@@ -9,6 +9,7 @@
 ## Contato
 > Tel : 34 984106585
 > Email: sergiocouter@gmail.com
+> LinkedIn: 
 
 ## Imagens
 >
