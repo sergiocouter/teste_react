@@ -1,4 +1,4 @@
-# Repositório de testes de React
+# Repositório de testes de React com JS e TS
 
 ## Objetivo
 > Testar alguma ideia antes de implementar
